@@ -1,0 +1,23 @@
+{ "travels": [{
+  "location": "New Zealand",
+  "author": "Jake Glassman",
+  "title": "On The Road Again",
+  "content": "This is a test to see how this would actually work",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+  "date": "12-21-1989"
+  }, {
+    "location": "Australia",
+    "author": "Travis Crampton",
+    "title": "Into The Unknown",
+    "content": "And Feburary made me shiver, with every paper I delivered",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg",
+    "date": "01-14-2013"
+    }, {
+      "location": "Cambodia",
+      "author": "Michael Bunker",
+      "title": "Cheap Food",
+      "content": "Bad News on the doorstep, I couldn't take onemore step",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+      "date":"04-23-1994"
+      }]
+    }
