@@ -1,19 +1,46 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  background: url("http://www.worldfortravel.com/wp-content/uploads/2015/05/Mount-Cook.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 ul {
   list-style-type: none;
 }
 
 .post img {
   height: 250px;
-  width: 300px;
+  width: 350px;
   float: right;
   padding-right: 10px;
-  padding-bottom: 20px;
+  border-radius: 5px;
 }
 
 .post {
-  border: 5px solid;
+  border: 1px solid;
   border-radius: 5px;
   height: 320px;
   margin: 30px;
   padding: 20px;
+  background-color: #F8F8F8;
+  opacity: .9;
+}
+
+.blog-post {
+  border: 1px solid;
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  padding: 20px;
+  opacity: .9;
+}
+
+.other-image {
+  height: 250px;
+  width: 350px;
+  float: right;
+  position: relative;
+  border: 2px solid;
 }

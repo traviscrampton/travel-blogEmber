@@ -1,7 +1,8 @@
-<h1>{{model.title}} by {{model.author}}</h1>
-
-<p>{{model.content}}</p>
-
-{{single-blog blog=model}}
-
-{{outlet}}
+<div class="blog-post">
+  <legend><h1 class="single-blog-title">{{model.title}}</h1> <h4>by {{model.author}}</h4></legend>
+  <img class="other-image" src="{{model.image}}" alt="model-image" />
+  <p>{{model.content}}</p>
+  <!-- {{single-blog blog=model}} -->
+  {{outlet}}
+</div>
+  <br>

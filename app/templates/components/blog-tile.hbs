@@ -1,10 +1,14 @@
 
 <div class="post">
-  <li>{{blog.title}} by {{blog.author}} {{blog.date}} <br><br>
-    {{cut-off blog.content}} <img src="{{blog.image}}"><br>
-    <button {{action 'delete' blog}}class="btn btn-danger">Delete</button>
-    {{#link-to 'blogpost' blog.id}}Read More{{/link-to}}
+    <img src="{{blog.image}}">
+  <li><h4><strong>{{blog.title}}</strong></h4> by {{blog.author}} {{blog.date}} <br><br>
+    <div class="sample-text col-md-6">
+      {{cut-off blog.content}} <br><br>
+      {{#link-to 'blogpost' blog.id class= "btn btn-primary"}}Read More{{/link-to}}
+      <button {{action 'delete' blog}}class="btn btn-danger">Delete</button> <br>
+    </div>
   </li>
 </div>
+
 <!--
 {{yield}} -->

@@ -2,10 +2,9 @@ import Ember from 'ember';
 
 export function cutOff(params/*, hash*/) {
   var content = params[0];
-  if (content.length > 3){
-    content = content.substring(0, 3) + "...";
+  if (content.length > 450){
+    content = content.substring(0, 450) + "...";
   }
-  debugger;
   return content;
 }
 
