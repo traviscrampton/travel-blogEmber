@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+}
+
+.post img {
+  height: 250px;
+  width: 300px;
+  float: right;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.post {
+  border: 5px solid;
+  border-radius: 5px;
+  height: 320px;
+  margin: 30px;
+  padding: 20px;
+}

@@ -1,6 +1,10 @@
-<li>{{blog.title}} by {{blog.author}} written on {{blog.date}}
 
+<div class="post">
+  <li>{{blog.title}} by {{blog.author}} {{blog.date}} <br><br>
+    {{blog.content}} <img src="{{blog.image}}"><br>
+    <button {{action 'delete' blog}}class="btn btn-danger">Delete</button>
+    <button class="btn btn-success">Read More</button>
+  </li>
+</div>
 
-<button {{action 'delete' blog}}class="btn btn-danger">Delete</button>
-</li>
 {{yield}}
