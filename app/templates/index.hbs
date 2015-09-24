@@ -2,8 +2,8 @@
 <h1>Travel Blog Posts</h1>
 
 <ul>
-  {{#each model as |travel|}}
-    {{blog-tile travel=travel}}
+  {{#each model as |blog|}}
+    {{blog-tile blog=blog destroyBlog="destroyBlog"}}
   {{/each}}
 </ul>
 

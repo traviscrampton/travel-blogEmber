@@ -1,2 +1,6 @@
-<li>{{travel.title}} by {{travel.author}} written on {{travel.date}}</li>
+<li>{{blog.title}} by {{blog.author}} written on {{blog.date}}
+
+
+<button {{action 'delete' blog}}class="btn btn-danger">Delete</button>
+</li>
 {{yield}}
