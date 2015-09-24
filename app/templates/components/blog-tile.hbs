@@ -1,9 +1,9 @@
 
 <div class="post">
   <li>{{blog.title}} by {{blog.author}} {{blog.date}} <br><br>
-    {{blog.content}} <img src="{{blog.image}}"><br>
+    {{cut-off blog.content}} <img src="{{blog.image}}"><br>
     <button {{action 'delete' blog}}class="btn btn-danger">Delete</button>
-    {{#link-to 'blogpost'}}Read More{{/link-to}}
+    {{#link-to 'blogpost' blog.id}}Read More{{/link-to}}
   </li>
 </div>
 <!--

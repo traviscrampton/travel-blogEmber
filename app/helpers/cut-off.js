@@ -1,10 +1,12 @@
 import Ember from 'ember';
 
 export function cutOff(params/*, hash*/) {
-  if (blog.content[0].length > 3){
-    params = params.substr(0, 3) + "...";
+  var content = params[0];
+  if (content.length > 3){
+    content = content.substring(0, 3) + "...";
   }
-  return params;
+  debugger;
+  return content;
 }
 
 export default Ember.Helper.helper(cutOff);

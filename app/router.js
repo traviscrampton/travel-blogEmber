@@ -8,7 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('about');
   this.route('contact');
-  this.route('blogpost');
+  this.route('blogpost', {path: '/blog/:blog_id'});
 });
 
 export default Router;

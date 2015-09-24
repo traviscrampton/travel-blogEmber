@@ -1,3 +1,7 @@
-<h1>{{blog.title}}, {{blog.author}}</h1>
+<h1>{{model.title}} by {{model.author}}</h1>
+
+<p>{{model.content}}</p>
+
+{{single-blog blog=model}}
 
 {{outlet}}
